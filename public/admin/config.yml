@@ -16,9 +16,9 @@ collections:
     editor:
       preview: false
     files:
-      - file: "src/content/siteContent.json"
+      - file: "src/content/content.yml"
         label: "Conteúdo Principal"
-        name: "siteContent"
+        name: "content"
         fields:
           - label: "SEO"
             name: "seo"
