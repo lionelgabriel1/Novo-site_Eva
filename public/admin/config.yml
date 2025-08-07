@@ -12,8 +12,11 @@ site_url: "https://tiporeisemservico.online"
 collections:
   - name: "conteudo"
     label: "Conteúdo do Site"
+    delete: false
+    editor:
+      preview: false
     files:
-      - file: "src/content/siteContent.js"
+      - file: "src/content/siteContent.json"
         label: "Conteúdo Principal"
         name: "siteContent"
         fields:
