@@ -6,15 +6,16 @@ backend:
 media_folder: "public/uploads"
 public_folder: "/uploads"
 
+locale: "pt"
 site_url: "https://tiporeisemservico.online"
 
 collections:
-  - name: "site_content"
+  - name: "conteudo"
     label: "Conteúdo do Site"
     files:
       - file: "src/content/siteContent.js"
-        label: "Site Content"
-        name: "site_content"
+        label: "Conteúdo Principal"
+        name: "siteContent"
         fields:
           - label: "SEO"
             name: "seo"
@@ -24,37 +25,35 @@ collections:
               - { label: "Descrição", name: "description", widget: "text" }
               - { label: "Palavras-chave", name: "keywords", widget: "string" }
               - { label: "Robots", name: "robots", widget: "string" }
-              - { label: "Canonical (URL)", name: "canonical", widget: "string" }
+              - { label: "Canonical", name: "canonical", widget: "string" }
 
           - label: "Open Graph"
             name: "og"
             widget: "object"
             fields:
-              - { label: "Título OG", name: "title", widget: "string" }
-              - { label: "Descrição OG", name: "description", widget: "text" }
-              - { label: "URL OG", name: "url", widget: "string" }
-              - { label: "Imagem OG", name: "image", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Imagem", name: "image", widget: "string" }
 
           - label: "Twitter"
             name: "twitter"
             widget: "object"
             fields:
-              - { label: "Título Twitter", name: "title", widget: "string" }
-              - { label: "Descrição Twitter", name: "description", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descrição", name: "description", widget: "text" }
 
-          - label: "Schema"
-            name: "schema"
+          - label: "Link de Registro"
+            name: "links"
             widget: "object"
             fields:
-              - { label: "Nome", name: "name", widget: "string" }
-              - { label: "Descrição", name: "description", widget: "string" }
-              - { label: "URL", name: "url", widget: "string" }
+              - { label: "URL de Registro", name: "register", widget: "string" }
 
           - label: "Hero"
             name: "hero"
             widget: "object"
             fields:
-              - label: "Imagem Hero"
+              - label: "Imagem"
                 name: "image"
                 widget: "object"
                 fields:
@@ -63,72 +62,76 @@ collections:
               - { label: "Texto do Botão", name: "buttonText", widget: "string" }
               - { label: "Link do Botão", name: "buttonLink", widget: "string" }
 
-          - label: "Vídeo Jogo"
+          - label: "Vídeo do Jogo"
             name: "game"
             widget: "object"
             fields:
-              - { label: "ID do Vídeo (YouTube)", name: "videoId", widget: "string" }
+              - { label: "YouTube Video ID", name: "videoId", widget: "string" }
 
-          - label: "Prêmios"
+          - label: "Imagem de Prêmio"
             name: "prize"
             widget: "object"
             fields:
-              - label: "Imagem Prêmio"
+              - label: "Imagem"
                 name: "image"
                 widget: "object"
                 fields:
                   - { label: "URL", name: "src", widget: "string" }
                   - { label: "Alt", name: "alt", widget: "string" }
-              - { label: "Link Prêmio", name: "link", widget: "string" }
+              - { label: "Link", name: "link", widget: "string" }
 
-          - label: "Estrelas"
+          - label: "Avaliações (Estrelas)"
             name: "stars"
             widget: "object"
             fields:
-              - label: "Imagem Estrelas"
+              - label: "Imagem"
                 name: "image"
                 widget: "object"
                 fields:
                   - { label: "URL", name: "src", widget: "string" }
                   - { label: "Alt", name: "alt", widget: "string" }
-              - { label: "Link Estrelas", name: "link", widget: "string" }
+              - { label: "Link", name: "link", widget: "string" }
 
           - label: "VIP"
             name: "vip"
             widget: "object"
             fields:
-              - label: "Imagem VIP"
+              - label: "Imagem"
                 name: "image"
                 widget: "object"
                 fields:
                   - { label: "URL", name: "src", widget: "string" }
                   - { label: "Alt", name: "alt", widget: "string" }
-              - { label: "Link VIP", name: "link", widget: "string" }
+              - { label: "Link", name: "link", widget: "string" }
 
           - label: "Cadastro"
             name: "register"
             widget: "object"
             fields:
-              - { label: "Título Cadastro", name: "title", widget: "string" }
-              - label: "Imagem Cadastro"
+              - { label: "Título", name: "title", widget: "string" }
+              - label: "Imagem"
                 name: "image"
                 widget: "object"
                 fields:
                   - { label: "URL", name: "src", widget: "string" }
                   - { label: "Alt", name: "alt", widget: "string" }
-              - { label: "Link Cadastro", name: "link", widget: "string" }
-              - { label: "Título Instruções", name: "instructionsTitle", widget: "string" }
-              - name: "instructions", label: "Instruções", widget: "list", field: { name: "step", label: "Passo", widget: "string" }
+              - { label: "Link", name: "link", widget: "string" }
+              - { label: "Título das Instruções", name: "instructionsTitle", widget: "string" }
+              - label: "Passos"
+                name: "instructions"
+                widget: "list"
+                field: { label: "Passo", name: "step", widget: "string" }
 
-          - label: "CTA"
+          - label: "Chamada para Ação (CTA)"
             name: "cta"
             widget: "object"
             fields:
-              - label: "Imagem CTA"
+              - label: "Imagem"
                 name: "image"
                 widget: "object"
                 fields:
                   - { label: "URL", name: "src", widget: "string" }
                   - { label: "Alt", name: "alt", widget: "string" }
-              - { label: "Botão CTA", name: "buttonText", widget: "string" }
-              - { label: "Link CTA", name: "buttonLink", widget: "string" }
+              - { label: "Link", name: "link", widget: "string" }
+              - { label: "Texto do Botão", name: "buttonText", widget: "string" }
+              - { label: "Link do Botão", name: "buttonLink", widget: "string" }
