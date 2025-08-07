@@ -1,0 +1,240 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Performance optimized CSS */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #0f0f23;
+  color: white;
+  overflow-x: hidden;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optimized animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(233, 30, 99, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(233, 30, 99, 0.6);
+  }
+}
+
+/* Enhanced button styles */
+.register-btn {
+  animation: glow 2s infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.register-btn:active {
+  transform: translateY(0);
+}
+
+.animated-pulse {
+  animation: pulse 2.5s infinite ease-in-out;
+}
+
+/* Optimized form styles */
+input, select, button {
+  will-change: auto;
+  backface-visibility: hidden;
+}
+
+input:focus, select:focus {
+  outline: 2px solid #e91e63;
+  outline-offset: 2px;
+}
+
+/* Performance optimizations */
+.hero-section {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+.game-interface {
+  will-change: auto;
+  contain: layout style paint;
+}
+
+/* Responsive optimizations */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 1rem 0.5rem; /* Reduced padding */
+    min-height: 70vh; /* Further reduced height for mobile */
+  }
+  
+  .airplane-container {
+    width: 280px; /* Smaller airplane on mobile */
+    height: 186px;
+    margin-bottom: 1rem; /* Reduced margin */
+  }
+  
+  .register-btn {
+    font-size: 0.9rem; /* Slightly smaller font */
+    padding: 0.7rem 1.2rem; /* Reduced padding */
+  }
+
+  .game-interface {
+    margin: 1rem auto; /* Reduced top/bottom margin */
+    padding: 0.5rem; /* Reduced padding */
+  }
+
+  .game-section > div:first-of-type { /* Prize section */
+    padding: 0.5rem 1rem; /* Reduced padding */
+    margin-bottom: 0.5rem; /* Reduced margin */
+  }
+
+  .game-section > div:first-of-type span {
+    font-size: 0.8rem; /* Smaller font */
+  }
+
+  .game-section > div:first-of-type div {
+    font-size: 1.6rem; /* Smaller font */
+  }
+
+  .stars .star {
+    font-size: 1.2rem; /* Smaller stars */
+  }
+
+  /* VIP Club Section */
+  section:nth-of-type(3) { /* Adjusting based on HTML structure */
+    padding: 1.5rem 0.8rem; /* Reduced padding */
+  }
+
+  section:nth-of-type(3) h2 {
+    font-size: 1.8rem; /* Smaller VIP Club heading */
+  }
+
+  section:nth-of-type(3) p {
+    font-size: 0.8rem; /* Smaller text */
+  }
+
+  section:nth-of-type(3) img {
+    width: 25px; /* Smaller arrows */
+    height: 25px;
+    margin: 0 0.2rem; /* Smaller margin between arrows */
+  }
+
+  /* Registration Form */
+  #register {
+    padding: 1.2rem 0.8rem; /* Reduced padding */
+  }
+
+  #registration-form {
+    gap: 0.5rem; /* Smaller gap between form elements */
+  }
+
+  #registration-form select,
+  #registration-form input {
+    padding: 0.6rem; /* Smaller padding in inputs */
+    font-size: 0.8rem; /* Smaller font in inputs */
+  }
+
+  #registration-form select {
+    flex: 0 0 70px; /* Adjust select width */
+  }
+
+  #registration-form button {
+    padding: 0.7rem 1.2rem; /* Reduced padding */
+    font-size: 0.9rem; /* Smaller font */
+  }
+
+  #register .terms-and-conditions { /* Targeting terms using a class for clarity */
+    margin-top: 0.8rem; /* Reduced margin */
+    font-size: 0.65rem; /* Smaller terms text */
+  }
+
+  /* Final CTA Section */
+  section:last-of-type {
+    padding: 1.5rem 0.8rem; /* Reduced padding */
+  }
+
+  section:last-of-type div:first-of-type {
+    padding: 1.2rem; /* Smaller padding for bonus box */
+  }
+
+  section:last-of-type div:first-of-type div:first-child {
+    font-size: 2.2rem; /* Smaller bonus percentage */
+  }
+
+  section:last-of-type div:first-of-type div:last-child {
+    font-size: 0.9rem; /* Smaller bonus text */
+  }
+
+  section:last-of-type .register-btn {
+    font-size: 0.95rem; /* Smaller font */
+    padding: 0.8rem 1.8rem; /* Reduced padding */
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .register-btn {
+    border: 2px solid white;
+  }
+  
+  input, select {
+    border: 1px solid white;
+  }
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+  
+  .register-btn {
+    background: black;
+    color: white;
+  }
+}
