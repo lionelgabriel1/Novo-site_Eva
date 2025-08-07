@@ -17,24 +17,9 @@
     "description": "Cadastre-se agora e receba 100% de bônus no primeiro depósito"
   },
   "schema": {
-    "@context": "https://schema.org",
-    "@type": "GameServer",
     "name": "Aviator Casino",
     "description": "Jogue Aviator e ganhe até 50.000 cruzeiros com bônus de 100% no primeiro depósito",
-    "url": "https://tiporeisemservico.online",
-    "gameLocation": {
-      "@type": "VirtualLocation",
-      "name": "Online Casino"
-    },
-    "offers": {
-      "@type": "Offer",
-      "name": "Bônus de Primeiro Depósito",
-      "description": "100% de bônus no primeiro depósito",
-      "category": "Casino Bonus"
-    }
-  },
-  "links": {
-    "register": "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
+    "url": "https://tiporeisemservico.online"
   },
   "hero": {
     "image": {
@@ -90,8 +75,7 @@
       "src": "https://horizons-cdn.hostinger.com/e2a6d8ae-c334-41ad-8ddc-41f798f01a53/9f846bd22a9b56e7b7e8b348cc4250ba.webp",
       "alt": "Bônus de boas-vindas do Aviator"
     },
-    "link": "https://www.elephantbet.co.ao/affiliates/?btag=2373527",
     "buttonText": "Cadastre-se e receba seu mimo🎁",
     "buttonLink": "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
   }
-  }
+}
