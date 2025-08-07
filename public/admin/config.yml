@@ -139,6 +139,10 @@ collections:
                 name: "instructions"
                 widget: "list"
                 required: false
+                field:
+                  label: "Passo"
+                  name: "step"
+                  widget: "string"
 
           - label: "Chamada para Ação (CTA)"
             name: "cta"
