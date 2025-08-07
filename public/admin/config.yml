@@ -20,118 +20,135 @@ collections:
           - label: "SEO"
             name: "seo"
             widget: "object"
+            required: false
             fields:
-              - { label: "Título", name: "title", widget: "string" }
-              - { label: "Descrição", name: "description", widget: "text" }
-              - { label: "Palavras-chave", name: "keywords", widget: "string" }
-              - { label: "Robots", name: "robots", widget: "string" }
-              - { label: "Canonical", name: "canonical", widget: "string" }
+              - { label: "Título", name: "title", widget: "string", required: false }
+              - { label: "Descrição", name: "description", widget: "text", required: false }
+              - { label: "Palavras-chave", name: "keywords", widget: "string", required: false }
+              - { label: "Robots", name: "robots", widget: "string", required: false }
+              - { label: "Canonical", name: "canonical", widget: "string", required: false }
 
           - label: "Open Graph"
             name: "og"
             widget: "object"
+            required: false
             fields:
-              - { label: "Título", name: "title", widget: "string" }
-              - { label: "Descrição", name: "description", widget: "text" }
-              - { label: "URL", name: "url", widget: "string" }
-              - { label: "Imagem", name: "image", widget: "string" }
+              - { label: "Título", name: "title", widget: "string", required: false }
+              - { label: "Descrição", name: "description", widget: "text", required: false }
+              - { label: "URL", name: "url", widget: "string", required: false }
+              - { label: "Imagem", name: "image", widget: "string", required: false }
 
           - label: "Twitter"
             name: "twitter"
             widget: "object"
+            required: false
             fields:
-              - { label: "Título", name: "title", widget: "string" }
-              - { label: "Descrição", name: "description", widget: "text" }
+              - { label: "Título", name: "title", widget: "string", required: false }
+              - { label: "Descrição", name: "description", widget: "text", required: false }
 
           - label: "Link de Registro"
             name: "links"
             widget: "object"
+            required: false
             fields:
-              - { label: "URL de Registro", name: "register", widget: "string" }
+              - { label: "URL de Registro", name: "register", widget: "string", required: false }
 
           - label: "Hero"
             name: "hero"
             widget: "object"
+            required: false
             fields:
               - label: "Imagem"
                 name: "image"
                 widget: "object"
+                required: false
                 fields:
-                  - { label: "URL", name: "src", widget: "string" }
-                  - { label: "Alt", name: "alt", widget: "string" }
-              - { label: "Texto do Botão", name: "buttonText", widget: "string" }
-              - { label: "Link do Botão", name: "buttonLink", widget: "string" }
+                  - { label: "URL", name: "src", widget: "string", required: false }
+                  - { label: "Alt", name: "alt", widget: "string", required: false }
+              - { label: "Texto do Botão", name: "buttonText", widget: "string", required: false }
+              - { label: "Link do Botão", name: "buttonLink", widget: "string", required: false }
 
           - label: "Vídeo do Jogo"
             name: "game"
             widget: "object"
+            required: false
             fields:
-              - { label: "YouTube Video ID", name: "videoId", widget: "string" }
+              - { label: "YouTube Video ID", name: "videoId", widget: "string", required: false }
 
           - label: "Imagem de Prêmio"
             name: "prize"
             widget: "object"
+            required: false
             fields:
               - label: "Imagem"
                 name: "image"
                 widget: "object"
+                required: false
                 fields:
-                  - { label: "URL", name: "src", widget: "string" }
-                  - { label: "Alt", name: "alt", widget: "string" }
-              - { label: "Link", name: "link", widget: "string" }
+                  - { label: "URL", name: "src", widget: "string", required: false }
+                  - { label: "Alt", name: "alt", widget: "string", required: false }
+              - { label: "Link", name: "link", widget: "string", required: false }
 
           - label: "Avaliações (Estrelas)"
             name: "stars"
             widget: "object"
+            required: false
             fields:
               - label: "Imagem"
                 name: "image"
                 widget: "object"
+                required: false
                 fields:
-                  - { label: "URL", name: "src", widget: "string" }
-                  - { label: "Alt", name: "alt", widget: "string" }
-              - { label: "Link", name: "link", widget: "string" }
+                  - { label: "URL", name: "src", widget: "string", required: false }
+                  - { label: "Alt", name: "alt", widget: "string", required: false }
+              - { label: "Link", name: "link", widget: "string", required: false }
 
           - label: "VIP"
             name: "vip"
             widget: "object"
+            required: false
             fields:
               - label: "Imagem"
                 name: "image"
                 widget: "object"
+                required: false
                 fields:
-                  - { label: "URL", name: "src", widget: "string" }
-                  - { label: "Alt", name: "alt", widget: "string" }
-              - { label: "Link", name: "link", widget: "string" }
+                  - { label: "URL", name: "src", widget: "string", required: false }
+                  - { label: "Alt", name: "alt", widget: "string", required: false }
+              - { label: "Link", name: "link", widget: "string", required: false }
 
           - label: "Cadastro"
             name: "register"
             widget: "object"
+            required: false
             fields:
-              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Título", name: "title", widget: "string", required: false }
               - label: "Imagem"
                 name: "image"
                 widget: "object"
+                required: false
                 fields:
-                  - { label: "URL", name: "src", widget: "string" }
-                  - { label: "Alt", name: "alt", widget: "string" }
-              - { label: "Link", name: "link", widget: "string" }
-              - { label: "Título das Instruções", name: "instructionsTitle", widget: "string" }
+                  - { label: "URL", name: "src", widget: "string", required: false }
+                  - { label: "Alt", name: "alt", widget: "string", required: false }
+              - { label: "Link", name: "link", widget: "string", required: false }
+              - { label: "Título das Instruções", name: "instructionsTitle", widget: "string", required: false }
               - label: "Passos"
                 name: "instructions"
                 widget: "list"
-                field: { label: "Passo", name: "step", widget: "string" }
+                required: false
 
           - label: "Chamada para Ação (CTA)"
             name: "cta"
             widget: "object"
+            required: false
             fields:
               - label: "Imagem"
                 name: "image"
                 widget: "object"
+                required: false
                 fields:
-                  - { label: "URL", name: "src", widget: "string" }
-                  - { label: "Alt", name: "alt", widget: "string" }
-              - { label: "Link", name: "link", widget: "string" }
-              - { label: "Texto do Botão", name: "buttonText", widget: "string" }
-              - { label: "Link do Botão", name: "buttonLink", widget: "string" }
+                  - { label: "URL", name: "src", widget: "string", required: false }
+                  - { label: "Alt", name: "alt", widget: "string", required: false }
+              - { label: "Link", name: "link", widget: "string", required: false }
+              - { label: "Texto do Botão", name: "buttonText", widget: "string", required: false }
+              - { label: "Link do Botão", name: "buttonLink", widget: "string", required: false }
