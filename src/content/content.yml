@@ -1,0 +1,81 @@
+{
+  "seo": {
+    "title": "Aviator - Jogue e Ganhe Até 50.000 Cruzeiros | Cadastre-se Agora",
+    "description": "Jogue Aviator e ganhe até 50.000 cruzeiros! Cadastre-se agora e receba 100% de bônus no primeiro depósito. Club VIP com bônus semanais para jogadores fiéis.",
+    "keywords": "aviator, jogo aviator, casino online, bônus casino, club vip, ganhar dinheiro",
+    "robots": "index, follow",
+    "canonical": "https://tiporeisemservico.online"
+  },
+  "og": {
+    "title": "Aviator - Jogue e Ganhe Até 50.000 Cruzeiros",
+    "description": "Cadastre-se agora e receba 100% de bônus no primeiro depósito. Club VIP exclusivo!",
+    "url": "https://tiporeisemservico.online",
+    "image": "https://horizons-cdn.hostinger.com/e2a6d8ae-c334-41ad-8ddc-41f798f01a53/c9789a75428434f6c0dd2d6ec03484cb.webp"
+  },.
+  "twitter": {
+    "title": "Aviator - Jogue e Ganhe Até 50.000 Cruzeiros",
+    "description": "Cadastre-se agora e receba 100% de bônus no primeiro depósito"
+  },
+  "schema": {
+    "name": "Aviator Casino",
+    "description": "Jogue Aviator e ganhe até 50.000 cruzeiros com bônus de 100% no primeiro depósito",
+    "url": "https://tiporeisemservico.online"
+  },
+  "hero": {
+    "image": {
+      "src": "https://horizons-cdn.hostinger.com/e2a6d8ae-c334-41ad-8ddc-41f798f01a53/c9789a75428434f6c0dd2d6ec03484cb.webp",
+      "alt": "Avião rosa voando - Jogo Aviator"
+    },
+    "buttonText": "Cadastre-se e receba seu mimo🎁",
+    "buttonLink": "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
+  },
+  "game": {
+    "videoId": "UGLZweOw_Uc"
+  },
+  "prize": {
+    "image": {
+      "src": "https://horizons-cdn.hostinger.com/e2a6d8ae-c334-41ad-8ddc-41f798f01a53/9c344072216f7bd0754755e4afbd7874.webp",
+      "alt": "Ganhe até 50.000.000 KZS"
+    },
+    "link": "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
+  },
+  "stars": {
+    "image": {
+      "src": "https://horizons-cdn.hostinger.com/e2a6d8ae-c334-41ad-8ddc-41f798f01a53/cb7a0804daa6878d24928d1f18cd7e7d.webp",
+      "alt": "Cinco estrelas douradas de avaliação"
+    },
+    "link": "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
+  },
+  "vip": {
+    "image": {
+      "src": "https://horizons-cdn.hostinger.com/e2a6d8ae-c334-41ad-8ddc-41f798f01a53/f5557e9aad671b5d50bc3486bdbc6a7f.png",
+      "alt": "Club VIP com setas decorativas e bônus semanais para jogadores fiéis"
+    },
+    "link": "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
+  },
+  "register": {
+    "title": "Como se cadastrar e ganhar bônus constantemente!",
+    "image": {
+      "src": "https://horizons-cdn.hostinger.com/e2a6d8ae-c334-41ad-8ddc-41f798f01a53/45ca33e7d5d55b0bd672f9b32952ad57.webp",
+      "alt": "Formulário de cadastro para novos membros do Aviator, com campos para número de telefone, senha e NIF, e botão de inscrição."
+    },
+    "link": "https://www.elephantbet.co.ao/affiliates/?btag=2373527",
+    "instructionsTitle": "Aprenda como criar a sua conta de forma correta:",
+    "instructions": [
+      "Inserir o seu número de telefone",
+      "Crie a sua palavra passe",
+      "Confirma a sua palavra passe",
+      "Confirma que tens mais de 18 anos clicando no quadro a esquerda ⬅",
+      "Clica em inscrever-se",
+      "Abrirá um novo campo, onde deverá colocar o código de confirmação enviado no seu número, em seguida clica em cadastrar e a sua conta será criada com sucesso!"
+    ]
+  },
+  "cta": {
+    "image": {
+      "src": "https://horizons-cdn.hostinger.com/e2a6d8ae-c334-41ad-8ddc-41f798f01a53/9f846bd22a9b56e7b7e8b348cc4250ba.webp",
+      "alt": "Bônus de boas-vindas do Aviator"
+    },
+    "buttonText": "Cadastre-se e receba seu mimo🎁",
+    "buttonLink": "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
+  }
+}
