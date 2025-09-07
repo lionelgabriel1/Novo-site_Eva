@@ -1,85 +1,80 @@
-seo:
-  title: "Aviator - Jogue e Ganhe Até 50.000 Cruzeiros | Cadastre-se Agora"
-  description: "Jogue Aviator e ganhe até 50.000 cruzeiros! Cadastre-se agora e receba 100% de bônus no primeiro depósito. Club VIP com bônus semanais para jogadores fiéis."
-  keywords: "aviator, jogo aviator, casino online, bônus casino, club vip, ganhar dinheiro"
-  robots: "index, follow"
-  canonical: "https://tiporeisemservico.online"
-
-og:
-  title: "Aviator - Jogue e Ganhe Até 50.000 Cruzeiros"
-  description: "Cadastre-se agora e receba 100% de bônus no primeiro depósito. Club VIP exclusivo!"
-  url: "https://tiporeisemservico.online"
-  image: "/imagens/banner%20principal%20no%20topo%20do%20site.webp"
-
-twitter:
-  title: "Aviator - Jogue e Ganhe Até 50.000 Cruzeiros"
-  description: "Cadastre-se agora e receba 100% de bônus no primeiro depósito"
-
-schema:
-  "@context": "https://schema.org"
-  "@type": "GameServer"
-  name: "Aviator Casino"
-  description: "Jogue Aviator e ganhe até 50.000 cruzeiros com bônus de 100% no primeiro depósito"
-  url: "https://tiporeisemservico.online"
-  gameLocation:
-    "@type": "VirtualLocation"
-    name: "Online Casino"
-  offers:
-    "@type": "Offer"
-    name: "Bônus de Primeiro Depósito"
-    description: "100% de bônus no primeiro depósito"
-    category: "Casino Bonus"
-
-links:
-  register: "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
-
-hero:
-  image:
-    src: "/imagens/banner%20principal%20no%20topo%20do%20site.webp"
-    alt: "Avião rosa voando - Jogo Aviator"
-  buttonText: "Cadastre-se e receba seu mimo🎁"
-  buttonLink: "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
-
-game:
-  videoId: "UGLZweOw_Uc"
-
-prize:
-  image:
-    src: "/imagens/banner%20do%20bonus.webp"
-    alt: "Ganhe até 50.000.000 KZS"
-  link: "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
-
 stars:
   image:
-    src: "/imagens/estrelas%20do%20site.webp"
-    alt: "Cinco estrelas douradas de avaliação"
-  link: "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
-
+    src: /imagens/estrelas%20do%20site.webp
+    alt: Cinco estrelas douradas de avaliação
+  link: https://www.elephantbet.co.ao/affiliates/?btag=2520586
+schema:
+  "@context": https://schema.org
+  "@type": GameServer
+  name: Aviator Casino
+  description: Jogue Aviator e ganhe até 50.000 cruzeiros com bônus de 100% no
+    primeiro depósito
+  url: https://tiporeisemservico.online
+  gameLocation:
+    "@type": VirtualLocation
+    name: Online Casino
+  offers:
+    "@type": Offer
+    name: Bônus de Primeiro Depósito
+    description: 100% de bônus no primeiro depósito
+    category: Casino Bonus
+seo:
+  title: Aviator - Jogue e Ganhe Até 50.000 Cruzeiros | Cadastre-se Agora
+  description: Jogue Aviator e ganhe até 50.000 cruzeiros! Cadastre-se agora e
+    receba 100% de bônus no primeiro depósito. Club VIP com bônus semanais para
+    jogadores fiéis.
+  keywords: aviator, jogo aviator, casino online, bônus casino, club vip, ganhar dinheiro
+  robots: index, follow
+  canonical: https://tiporeisemservico.online
+og:
+  title: Aviator - Jogue e Ganhe Até 50.000 Cruzeiros
+  description: Cadastre-se agora e receba 100% de bônus no primeiro depósito. Club
+    VIP exclusivo!
+  url: https://tiporeisemservico.online
+  image: /imagens/banner%20principal%20no%20topo%20do%20site.webp
+twitter:
+  title: Aviator - Jogue e Ganhe Até 50.000 Cruzeiros
+  description: Cadastre-se agora e receba 100% de bônus no primeiro depósito
+links:
+  register: https://www.elephantbet.co.ao/affiliates/?btag=2520586
+hero:
+  image:
+    src: /imagens/banner%20principal%20no%20topo%20do%20site.webp
+    alt: Avião rosa voando - Jogo Aviator
+  buttonText: Cadastre-se e receba seu mimo🎁
+  buttonLink: https://www.elephantbet.co.ao/affiliates/?btag=2520586
+game:
+  videoId: UGLZweOw_Uc
+prize:
+  image:
+    src: /imagens/banner%20do%20bonus.webp
+    alt: Ganhe até 50.000.000 KZS
+  link: https://www.elephantbet.co.ao/affiliates/?btag=2520586
 vip:
   image:
-    src: "https://horizons-cdn.hostinger.com/e2a6d8ae-c334-41ad-8ddc-41f798f01a53/f5557e9aad671b5d50bc3486bdbc6a7f.png"
-    alt: "Club VIP com setas decorativas e bônus semanais para jogadores fiéis"
-  link: "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
-
+    src: https://horizons-cdn.hostinger.com/e2a6d8ae-c334-41ad-8ddc-41f798f01a53/f5557e9aad671b5d50bc3486bdbc6a7f.png
+    alt: Club VIP com setas decorativas e bônus semanais para jogadores fiéis
+  link: https://www.elephantbet.co.ao/affiliates/?btag=2520586
 register:
-  title: "Como se cadastrar e ganhar bônus constantemente!"
+  title: Como se cadastrar e ganhar bônus constantemente!
   image:
-    src: "/imagens/form%20de%20cadastro.webp"
-    alt: "Formulário de cadastro para novos membros do Aviator"
-  link: "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
+    src: /imagens/form%20de%20cadastro.webp
+    alt: Formulário de cadastro para novos membros do Aviator
+  link: https://www.elephantbet.co.ao/affiliates/?btag=2520586
   instructionsTitle: "Aprenda como criar a sua conta de forma correta:"
   instructions:
-    - "Inserir o seu número de telefone"
-    - "Crie a sua palavra passe"
-    - "Confirma a sua palavra passe"
-    - "Confirma que tens mais de 18 anos clicando no quadro à esquerda ⬅"
-    - "Clica em inscrever-se"
-    - "Abrirá um novo campo, onde deverá colocar o código de confirmação enviado no seu número, em seguida clica em cadastrar e a sua conta será criada com sucesso!"
-
+    - Inserir o seu número de telefone
+    - Crie a sua palavra passe
+    - Confirma a sua palavra passe
+    - Confirma que tens mais de 18 anos clicando no quadro à esquerda ⬅
+    - Clica em inscrever-se
+    - Abrirá um novo campo, onde deverá colocar o código de confirmação enviado
+      no seu número, em seguida clica em cadastrar e a sua conta será criada com
+      sucesso!
 cta:
   image:
-    src: "/imagens/bonus%20no%20final.webp"
-    alt: "Bônus de boas-vindas do Aviator"
-  link: "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
-  buttonText: "Cadastre-se e receba seu mimo🎁"
-  buttonLink: "https://www.elephantbet.co.ao/affiliates/?btag=2373527"
+    src: /imagens/bonus%20no%20final.webp
+    alt: Bônus de boas-vindas do Aviator
+  link: https://www.elephantbet.co.ao/affiliates/?btag=2373527
+  buttonText: Cadastre-se e receba seu mimo🎁
+  buttonLink: https://www.elephantbet.co.ao/affiliates/?btag=2373527
